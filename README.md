@@ -4,9 +4,7 @@
 
 ![stack](https://img.shields.io/badge/stack-react--native-important)
 
-## (<OnboardingScreen />)
-
-### Onboarding Template for React Native
+## ```(<OnboardingScreen />)```
 
 # Important
 
