@@ -1,8 +1,6 @@
 # React Native Onboarding Template
 
-![license](https://img.shields.io/badge/Licensed-ISC-success) ![npm](https://img.shields.io/badge/npm-v1.0.0-blue) 
-
-![stack](https://img.shields.io/badge/stack-react--native-important)
+![license](https://img.shields.io/badge/Licensed-ISC-success) ![npm](https://img.shields.io/badge/npm-v1.0.0-blue) ![stack](https://img.shields.io/badge/stack-react--native-important)
 
 ## ```(<OnboardingScreen />)```
 
