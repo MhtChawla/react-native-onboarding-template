@@ -41,7 +41,7 @@ const App = ({navigation}) => {
       headfontFamily={Fonts.airbnbBd}
       onPressLastButton={() => navigation.navigate('Home')}
       //other such props if you wish to give values..
-      />
+     />
 ```
 ```sh
   );
