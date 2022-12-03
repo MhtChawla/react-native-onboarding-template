@@ -56,6 +56,7 @@ const App = ({navigation}) => {
 <td><strong>Name&nbsp;</strong></td>
 <td><strong>Description&nbsp;</strong></td>
 </tr>
+<br />
 <tr>
 <td>title1</td>
 <td>change Title of 1st Slide</td>
