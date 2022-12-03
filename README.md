@@ -38,9 +38,9 @@ const App = ({navigation}) => {
       subtitle1="We're glad that you are here"
       title3="Dochit for everything, edit on your mobile edit on the go!"
       //or other slide props if you wish to give values..
-      fontFamily={Fonts.airbnb} //normal variant
-      subheadfontFamily={Fonts.airbnbMd} //medium thickness variant
-      headfontFamily={Fonts.airbnbBd} //bold thickness variant
+      fontFamily={Fonts.airbnb}
+      subheadfontFamily={Fonts.airbnbMd}
+      headfontFamily={Fonts.airbnbBd}
       onPressLastButton={() => navigation.navigate('Home')}
      />
 ```
