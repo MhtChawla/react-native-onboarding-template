@@ -49,7 +49,9 @@ const App = ({navigation}) => {
 ```
 
 # Props
-
+</br>
+</br>
+<h2>3rd slide props</h2>
 <table>
 <tbody>
 <tr>
@@ -86,8 +88,14 @@ const App = ({navigation}) => {
 </tr>
 </table>
 </tbody>
+</br>
+<h2>2nd slide props</h2>
 <table>
 <tbody>
+<tr>
+<td><strong>Name&nbsp;</strong></td>
+<td><strong>Description&nbsp;</strong></td>
+</tr>
 <tr>
 <td>title2</td>
 <td>change Title of 2nd Slide</td>
@@ -118,8 +126,14 @@ const App = ({navigation}) => {
 </tr>
 </table>
 </tbody>
+</br>
+<h2>3rd slide props</h2>
 <table>
 <tbody>
+<tr>
+<td><strong>Name&nbsp;</strong></td>
+<td><strong>Description&nbsp;</strong></td>
+</tr>
 <tr>
 <td>title3</td>
 <td>change Title of 3rd Slide</td>
@@ -150,8 +164,14 @@ const App = ({navigation}) => {
 </tr>
 </table>
 </tbody>
+</br>
+<h2>other props</h2>
 <table>
 <tbody>
+<tr>
+<td><strong>Name&nbsp;</strong></td>
+<td><strong>Description&nbsp;</strong></td>
+</tr>
 <tr>
 <td>buttonTextStyle</td>
 <td>common styling to Title of all buttons</td>
