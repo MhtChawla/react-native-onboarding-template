@@ -49,9 +49,8 @@ const App = ({navigation}) => {
 ```
 
 # Props
-</br>
-</br>
-<h2>3rd slide props</h2>
+<!-- </br> -->
+<h2>1st slide props</h2>
 <table>
 <tbody>
 <tr>
