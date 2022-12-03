@@ -1,0 +1,26 @@
+{
+  "name": "react-native-onboarding-template",
+  "version": "1.0.0",
+  "description": "Onboarding Screen template for React Native Apps, Build onboarding for your app within seconds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MhtChawla/react-native-onboarding-template.git"
+  },
+  "keywords": [
+    "react-native-onboarding-template",
+    "react-native-onboarding-screen",
+    "onboarding-screen",
+    "onboarding",
+    "onboarding-template"
+  ],
+  "author": "Mohit Chawla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MhtChawla/react-native-onboarding-template/issues"
+  },
+  "homepage": "https://github.com/MhtChawla/react-native-onboarding-template#readme"
+}

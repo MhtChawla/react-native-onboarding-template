@@ -1,16 +1,19 @@
 # React Native Onboarding Template
 
 ![license](https://img.shields.io/badge/Licensed-ISC-success) ![npm](https://img.shields.io/badge/npm-v1.0.0-blue) ![stack](https://img.shields.io/badge/stack-react--native-important)
+## ``<OnboardingScreen />``
 
-## ```(<OnboardingScreen />)```
-
-Basically, `react-native-onboarding-template` is a pre-made Screen/Template for you to use in React Native Apps, It is very simple to use, just import `<OnboardingScreen />` with your own values to props & get a Onboarding Screen built for your App within seconds.
+Basically, `react-native-onboarding-template` is a pre-made Screen/Template for you to use in React Native apps, It is very simple to use, just import `<OnboardingScreen/>` with your own values to props & get a Onboarding Screen built for your App within seconds.
 
 <div>
     <img src="https://github.com/MhtChawla/glimpse-of-mywork/blob/main/react-native-onboarding-template/Demo.gif" width="350" />
 </div>
 
+<<<<<<< HEAD
 Default values to `props` are given in `<OnboardingScreen />` (as seen in example above) though you can change yours whichever you wish to, see props at bottom of page. Also if you wish to use the same Font as of (my example above), you can download the fonts from <a href=''>here</a> & provide to `headfontFamily, subheadfontFamily & fontFamily` respectively.
+=======
+Default values to `props` are given in `<OnboardingScreen />` (as seen in example above) though you can change yours whichever you wish to. See props at bottom of page. & also if you wish to use the same Font as of (my example above), you can download the fonts from <a href=''>here</a> & provide to `headfontFamily, subheadfontFamily & fontFamily` respectively.
+>>>>>>> bace422efea3d6024bd5df4280aaaf0b0d57495a
 
 # Installation
 
@@ -33,15 +36,15 @@ const App = ({navigation}) => {
 ```sh
     <OnboardingScreen
       title1="Welcome"
+      subtitle1={`We're glad that you${'\n'}are here`}
       title2="Document Tools, that you need"
       title3="Dochit for everything, edit on your mobile edit on the go!"
-      //other such props if you wish to give values..
       fontFamily={Fonts.airbnb}
       subheadfontFamily={Fonts.airbnbMd}
       headfontFamily={Fonts.airbnbBd}
       onPressLastButton={() => navigation.navigate('Home')}
-      subtitle1={`We're glad that you${'\n'}are here`} 
-      />
+      //other such props if you wish to give values..
+     />
 ```
 ```sh
   );
@@ -49,7 +52,8 @@ const App = ({navigation}) => {
 ```
 
 # Props
-
+<!-- </br> -->
+<h2>for 1st slide</h2>
 <table>
 <tbody>
 <tr>
@@ -84,6 +88,16 @@ const App = ({navigation}) => {
 <td>buttontitle1Style</td>
 <td>styling to buttontitle1</td>
 </tr>
+</table>
+</tbody>
+<!-- </br> -->
+<h2>for 2nd slide</h2>
+<table>
+<tbody>
+<tr>
+<td><strong>Name&nbsp;</strong></td>
+<td><strong>Description&nbsp;</strong></td>
+</tr>
 <tr>
 <td>title2</td>
 <td>change Title of 2nd Slide</td>
@@ -112,6 +126,16 @@ const App = ({navigation}) => {
 <td>buttontitle2Style</td>
 <td>styling to buttontitle2 </td>
 </tr>
+</table>
+</tbody>
+<!-- </br> -->
+<h2>for 3rd slide</h2>
+<table>
+<tbody>
+<tr>
+<td><strong>Name&nbsp;</strong></td>
+<td><strong>Description&nbsp;</strong></td>
+</tr>
 <tr>
 <td>title3</td>
 <td>change Title of 3rd Slide</td>
@@ -139,6 +163,16 @@ const App = ({navigation}) => {
 <tr>
 <td>buttontitle3Style</td>
 <td>styling to buttontitle3</td>
+</tr>
+</table>
+</tbody>
+<!-- </br> -->
+<h2>all other props</h2>
+<table>
+<tbody>
+<tr>
+<td><strong>Name&nbsp;</strong></td>
+<td><strong>Description&nbsp;</strong></td>
 </tr>
 <tr>
 <td>buttonTextStyle</td>
