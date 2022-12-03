@@ -11,10 +11,10 @@
 Basically, `react-native-onboarding-template` is a pre-made Screen/Template for you to use in React Native Apps, It is very simple to use, just import `<OnboardingScreen />` with your own values to props & get a Onboarding Screen built for your App within seconds.
 
 <div>
-    <img src="https://github.com/MhtChawla/glimpse-of-mywork/blob/main/react-native-onboarding-template/Demo.gif" width="250" />
+    <img src="https://github.com/MhtChawla/glimpse-of-mywork/blob/main/react-native-onboarding-template/Demo.gif" width="350" />
 </div>
 
-Default values to `props` are given in `<OnboardingScreen />` (as seen in example above) though you can change yours whichever you wish to. See props at bottom of page. & also if you wish to use the same font as of (my example above), you can download the font from here & provide to `headfontFamily, subheadfontFamily & fontFamily` respectively.
+Default values to `props` are given in `<OnboardingScreen />` (as seen in example above) though you can change yours whichever you wish to. See props at bottom of page. & also if you wish to use the same Font as of (my example above), you can download the font from <a href=''>here</a> & provide to `headfontFamily, subheadfontFamily & fontFamily` respectively.
 
 # Installation
 
@@ -27,15 +27,16 @@ Default values to `props` are given in `<OnboardingScreen />` (as seen in exampl
 # Use
 
 ```sh
-import SwiperCumCarousel from 'react-native-onboarding-template'
+import OnboardingScreen from 'react-native-onboarding-template'
 ```
 
 ```sh
 const App = ({navigation}) => {
   return (
+```
+```sh
     <OnboardingScreen
       title1="Welcome"
-      subtitle1={`We're glad that you${'\n'}are here`}
       title2="Document Tools, that you need"
       title3="Dochit for everything, edit on your mobile edit on the go!"
       //other such props if you wish to give values..
@@ -43,7 +44,10 @@ const App = ({navigation}) => {
       subheadfontFamily={Fonts.airbnbMd}
       headfontFamily={Fonts.airbnbBd}
       onPressLastButton={() => navigation.navigate('Home')}
-    />
+      subtitle1={`We're glad that you${'\n'}are here`} 
+      />
+```
+```sh
   );
 };
 ```
@@ -182,8 +186,6 @@ const App = ({navigation}) => {
 </tr>
 </tbody>
 </table>
-
-So this was a fantastic yet easy to use React Native Onboarding Screen or React Native Onboarding Template.
 
 Contact me at mohit.chawla@workmail.com
 
