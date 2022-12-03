@@ -4,7 +4,7 @@
 
 ## ```(<OnboardingScreen />)```
 
-Basically, `react-native-onboarding-template` is a pre-made Screen/Template for you to use in React Native Apps, It is very simple to use, just import `<OnboardingScreen />` with your own values to props & get a Onboarding Screen built for your App within seconds.
+Basically, `react-native-onboarding-template` is a pre-made Screen/Template for you to use in React Native apps, It is very simple to use, just import `<OnboardingScreen/>` with your own values to props & get a Onboarding Screen built for your App within seconds.
 
 <div>
     <img src="https://github.com/MhtChawla/glimpse-of-mywork/blob/main/react-native-onboarding-template/Demo.gif" width="350" />
