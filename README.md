@@ -49,7 +49,7 @@ const App = ({navigation}) => {
 
 # Props
 <!-- </br> -->
-<h2>1st slide props</h2>
+<h2>for 1st slide</h2>
 <table>
 <tbody>
 <tr>
@@ -87,7 +87,7 @@ const App = ({navigation}) => {
 </table>
 </tbody>
 <!-- </br> -->
-<h2>2nd slide props</h2>
+<h2>for 2nd slide</h2>
 <table>
 <tbody>
 <tr>
@@ -125,7 +125,7 @@ const App = ({navigation}) => {
 </table>
 </tbody>
 <!-- </br> -->
-<h2>3rd slide props</h2>
+<h2>for 3rd slide</h2>
 <table>
 <tbody>
 <tr>
@@ -163,7 +163,7 @@ const App = ({navigation}) => {
 </table>
 </tbody>
 <!-- </br> -->
-<h2>other props</h2>
+<h2>other other props</h2>
 <table>
 <tbody>
 <tr>
