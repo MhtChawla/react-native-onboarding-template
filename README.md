@@ -87,7 +87,7 @@ const App = ({navigation}) => {
 </tr>
 </table>
 </tbody>
-</br>
+<!-- </br> -->
 <h2>2nd slide props</h2>
 <table>
 <tbody>
@@ -125,7 +125,7 @@ const App = ({navigation}) => {
 </tr>
 </table>
 </tbody>
-</br>
+<!-- </br> -->
 <h2>3rd slide props</h2>
 <table>
 <tbody>
@@ -163,7 +163,7 @@ const App = ({navigation}) => {
 </tr>
 </table>
 </tbody>
-</br>
+<!-- </br> -->
 <h2>other props</h2>
 <table>
 <tbody>
