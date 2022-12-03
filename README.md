@@ -33,14 +33,14 @@ const App = ({navigation}) => {
 ```sh
     <OnboardingScreen
       title1="Welcome"
+      subtitle1={`We're glad that you${'\n'}are here`}
       title2="Document Tools, that you need"
       title3="Dochit for everything, edit on your mobile edit on the go!"
-      //other such props if you wish to give values..
       fontFamily={Fonts.airbnb}
       subheadfontFamily={Fonts.airbnbMd}
       headfontFamily={Fonts.airbnbBd}
       onPressLastButton={() => navigation.navigate('Home')}
-      subtitle1={`We're glad that you${'\n'}are here`} 
+      //other such props if you wish to give values..
       />
 ```
 ```sh
