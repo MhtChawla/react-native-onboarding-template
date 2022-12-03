@@ -2,7 +2,7 @@
 
 ![license](https://img.shields.io/badge/Licensed-ISC-success) ![npm](https://img.shields.io/badge/npm-v1.0.0-blue) ![stack](https://img.shields.io/badge/stack-react--native-important)
 
-## ```(<OnboardingScreen />)```
+## `(<OnboardingScreen />)`
 
 Basically, `react-native-onboarding-template` is a pre-made Screen/Template for you to use in React Native Apps, It is very simple to use, just import `<OnboardingScreen />` with your own values to props & get a Onboarding Screen built for your App within seconds.
 
@@ -10,12 +10,12 @@ Basically, `react-native-onboarding-template` is a pre-made Screen/Template for 
     <img src="https://github.com/MhtChawla/glimpse-of-mywork/blob/main/react-native-onboarding-template/Demo.gif" width="350" />
 </div>
 
-Default values to `props` are given in `<OnboardingScreen />` (as seen in example above) though you can change yours whichever you wish to, see props at bottom of page. Also if you wish to use the same Font as of (my example above), you can download the fonts from <a href=''>here</a> & provide to `headfontFamily, subheadfontFamily & fontFamily` respectively.
+Default values to `props` are given in `<OnboardingScreen />` (as seen in example above) though you can change yours whichever you wish to, see props at bottom of page. Also if you wish to use the same Font as of (my example above), you can download the fonts from <a href='https://github.com/MhtChawla/react-native-onboarding-template/tree/master/fonts'>here</a> & provide to `headfontFamily, subheadfontFamily & fontFamily` respectively.
 
 # Installation
 
-1. `npm i react-native-onboarding-template` </br>
-   or </br>
+1. `npm i react-native-onboarding-template` <br>
+   or <br>
    `yarn add react-native-onboarding-template`
 
 2. `cd ios && pod install`
@@ -30,19 +30,21 @@ import OnboardingScreen from 'react-native-onboarding-template'
 const App = ({navigation}) => {
   return (
 ```
+
 ```sh
     <OnboardingScreen
       title1="Welcome"
       title2="Document Tools, that you need"
+      subtitle1="We're glad that you are here"
       title3="Dochit for everything, edit on your mobile edit on the go!"
-      //other such props if you wish to give values..
-      fontFamily={Fonts.airbnb}
-      subheadfontFamily={Fonts.airbnbMd}
-      headfontFamily={Fonts.airbnbBd}
+      // or other slide props if you wish to give values..
+      fontFamily={Fonts.airbnb} //normal variant
+      subheadfontFamily={Fonts.airbnbMd} //medium thickness variant
+      headfontFamily={Fonts.airbnbBd} //bold thickness variant
       onPressLastButton={() => navigation.navigate('Home')}
-      subtitle1={`We're glad that you${'\n'}are here`} 
       />
 ```
+
 ```sh
   );
 };
