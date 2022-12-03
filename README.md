@@ -56,10 +56,6 @@ const App = ({navigation}) => {
 <td><strong>Name&nbsp;</strong></td>
 <td><strong>Description&nbsp;</strong></td>
 </tr>
-</table>
-</tbody>
-<table>
-<tbody>
 <tr>
 <td>title1</td>
 <td>change Title of 1st Slide</td>
@@ -88,6 +84,10 @@ const App = ({navigation}) => {
 <td>buttontitle1Style</td>
 <td>styling to buttontitle1</td>
 </tr>
+</table>
+</tbody>
+<table>
+<tbody>
 <tr>
 <td>title2</td>
 <td>change Title of 2nd Slide</td>
@@ -116,6 +116,10 @@ const App = ({navigation}) => {
 <td>buttontitle2Style</td>
 <td>styling to buttontitle2 </td>
 </tr>
+</table>
+</tbody>
+<table>
+<tbody>
 <tr>
 <td>title3</td>
 <td>change Title of 3rd Slide</td>
@@ -144,6 +148,10 @@ const App = ({navigation}) => {
 <td>buttontitle3Style</td>
 <td>styling to buttontitle3</td>
 </tr>
+</table>
+</tbody>
+<table>
+<tbody>
 <tr>
 <td>buttonTextStyle</td>
 <td>common styling to Title of all buttons</td>
