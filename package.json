@@ -1,6 +1,6 @@
 {
   "name": "react-native-onboarding-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Onboarding Screen template for React Native Apps, Build onboarding for your app within seconds.",
   "main": "index.js",
   "scripts": {
