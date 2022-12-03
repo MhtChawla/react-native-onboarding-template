@@ -10,7 +10,7 @@ Basically, `react-native-onboarding-template` is a pre-made Screen/Template for 
     <img src="https://github.com/MhtChawla/glimpse-of-mywork/blob/main/react-native-onboarding-template/Demo.gif" width="350" />
 </div>
 
-Default values to `props` are given in `<OnboardingScreen />` (as seen in example above) though you can change yours whichever you wish to. See props at bottom of page. & also if you wish to use the same Font as of (my example above), you can download the font from <a href=''>here</a> & provide to `headfontFamily, subheadfontFamily & fontFamily` respectively.
+Default values to `props` are given in `<OnboardingScreen />` (as seen in example above) though you can change yours whichever you wish to, see props at bottom of page. Also if you wish to use the same Font as of (my example above), you can download the fonts from <a href=''>here</a> & provide to `headfontFamily, subheadfontFamily & fontFamily` respectively.
 
 # Installation
 
