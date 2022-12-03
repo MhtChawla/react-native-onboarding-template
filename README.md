@@ -163,7 +163,7 @@ const App = ({navigation}) => {
 </table>
 </tbody>
 <!-- </br> -->
-<h2>other other props</h2>
+<h2>all other props</h2>
 <table>
 <tbody>
 <tr>
